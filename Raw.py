@@ -176,30 +176,30 @@ class Main:
 	def v2(self):
 		if	os.path.isfile('.v2.py'):
 			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v2.py && clear && python .v2.py")
+			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.v2.py && clear && python .v2.py")
 
 		else:
 			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v2.py && clear && python .v2.py")
+			os.system("wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.v2.py && clear && python .v2.py")
 			
 			
 	def v3(self):
 		if	os.path.isfile('.v3.py'):
 			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v3.py && clear && python .v3.py")
+			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.v3.py && clear && python .v3.py")
 
 		else:
 			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.v3.py && clear && python .v3.py")
+			os.system("wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.v3.py && clear && python .v3.py")
 
 	def fmain(self):
 		if	os.path.isfile('.fmain.py'):
 			os.system("pkg install wget -y")
-			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.fmain.py && clear && python .fmain.py")
+			os.system("pip install requests && pip install bs4 && clear && wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.fmain.py && clear && python .fmain.py")
 
 		else:
 			os.system("pkg install wget -y")
-			os.system("wget https://raw.githubusercontent.com/EsanAhmedAbir/MultiTool/main/.fmain.py && clear && python .fmain.py")
+			os.system("wget https://raw.githubusercontent.com/Jhalla11/MultiTool/main/.fmain.py && clear && python .fmain.py")
 
 	def custom(self):
 		print("")
